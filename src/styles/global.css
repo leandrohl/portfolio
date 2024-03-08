@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../public/fonts/Archivo.ttf');
+}
+
+* {
+    margin: 0;
+    box-sizing: none;
+}
+
+body {
+    background-color: #111;
+}
