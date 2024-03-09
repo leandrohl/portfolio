@@ -3,7 +3,7 @@ import GithubIcon from '../../assets/images/github-logo.png'
 
 export default function Footer(){
     return (
-        <footer id="footer" className="px-20 pt-16 pb-8">
+        <footer id="footer" className="px-8 md:px-20 pt-16 pb-8">
             <section className="flex items-center justify-between mb-8">
                 <div className="w-1/4">
                     <h2 className="text-white font-bold mb-4 text-xl">Leandro Silva</h2>

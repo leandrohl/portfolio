@@ -27,7 +27,7 @@ export default function Experiences() {
 
 
     return(
-        <section id="experiences" className="flex flex-col justify-center items-center w-full px-40 py-20 bg-[#151515]">
+        <section id="experiences" className="flex flex-col justify-center items-center w-full px-2 md:px-40 py-20 bg-[#151515]">
             <h2 className="text-white text-center text-3xl mb-16 font-semibold">Experiências</h2>
             <div className="flex justify-center w-full">
                 <div className="flex flex-col w-2/6 text-lg	items-start">
@@ -44,7 +44,7 @@ export default function Experiences() {
                     }
                 </div>
                 <div className="w-4/6">
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                         <h2 className="text-white text-2xl" > {data[selected].title} </h2>
                         <span className="text-gray text-lg	">{data[selected].period}</span>
                     </div>

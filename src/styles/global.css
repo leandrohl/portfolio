@@ -9,7 +9,8 @@
 
 * {
     margin: 0;
-    box-sizing: none;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
