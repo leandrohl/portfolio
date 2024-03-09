@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/leandro-silva-portfolio/static/css/main.f3bffdda.css",
+    "main.js": "/leandro-silva-portfolio/static/js/main.d78f7580.js",
+    "static/js/453.d5ea6530.chunk.js": "/leandro-silva-portfolio/static/js/453.d5ea6530.chunk.js",
+    "static/media/arenacross-web.png": "/leandro-silva-portfolio/static/media/arenacross-web.6dff8f9f41579fd4af8c.png",
+    "static/media/luppi-web.png": "/leandro-silva-portfolio/static/media/luppi-web.67598cac4a59b70c5731.png",
+    "static/media/Archivo.ttf": "/leandro-silva-portfolio/static/media/Archivo.dbeec6a40176c2ff824c.ttf",
+    "static/media/ecoleta.png": "/leandro-silva-portfolio/static/media/ecoleta.f6a62927bb689d9bd20c.png",
+    "static/media/redux-icon.png": "/leandro-silva-portfolio/static/media/redux-icon.1b4bb5fceb01b19da59d.png",
+    "static/media/image-profile.jpeg": "/leandro-silva-portfolio/static/media/image-profile.96c150098be7f1bbb467.jpeg",
+    "static/media/Curriculo-Leandro-Silva.pdf": "/leandro-silva-portfolio/static/media/Curriculo-Leandro-Silva.11a6a5dc6e7c4a0db742.pdf",
+    "static/media/react-icon.png": "/leandro-silva-portfolio/static/media/react-icon.73dbb5bcec516da82694.png",
+    "static/media/typescript-logo.png": "/leandro-silva-portfolio/static/media/typescript-logo.659e4b9351cf1baa6930.png",
+    "static/media/javascript-icon.png": "/leandro-silva-portfolio/static/media/javascript-icon.bcc2c22a39cd931b0284.png",
+    "static/media/github-logo.png": "/leandro-silva-portfolio/static/media/github-logo.8b631832c04e8f9a7758.png",
+    "static/media/nodejs-logo.png": "/leandro-silva-portfolio/static/media/nodejs-logo.e328955d6bbbf3ebc72b.png",
+    "static/media/storybook-icon.png": "/leandro-silva-portfolio/static/media/storybook-icon.1866d65b5d0e00fb4b68.png",
+    "static/media/firebase-icon.png": "/leandro-silva-portfolio/static/media/firebase-icon.65c4fe9f7eb228db7a4c.png",
+    "static/media/nextjs-logo.webp": "/leandro-silva-portfolio/static/media/nextjs-logo.d57764092be401fee7cf.webp",
+    "index.html": "/leandro-silva-portfolio/index.html",
+    "main.f3bffdda.css.map": "/leandro-silva-portfolio/static/css/main.f3bffdda.css.map",
+    "main.d78f7580.js.map": "/leandro-silva-portfolio/static/js/main.d78f7580.js.map",
+    "453.d5ea6530.chunk.js.map": "/leandro-silva-portfolio/static/js/453.d5ea6530.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3bffdda.css",
+    "static/js/main.d78f7580.js"
+  ]
+}
