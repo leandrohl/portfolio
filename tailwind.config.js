@@ -9,7 +9,9 @@ module.exports = {
   theme: {
     colors: {
       primary: '#986dff',
-      white: '#fff'
+      white: '#fff',
+      gray: '#9ca3af',
+      black: '#000'
     },
     fontFamily: {
       'sans': ['Archivo', ...defaultTheme.fontFamily.sans],
