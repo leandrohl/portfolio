@@ -23,7 +23,7 @@ export default function AboutMe(){
                         <a 
                             href={pdf} 
                             download="Curriculo-Leandro-Silva.pdf" 
-                            className="mt-12 border-2 border-primary py-4 px-20 rounded-md font-semibold text-primary"
+                            className="mt-12 border-2  border-primary py-4 px-4 md:px-20 rounded-md font-semibold text-primary"
                         >
                             Baixar Curriculo
                         </a>
