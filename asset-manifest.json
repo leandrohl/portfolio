@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leandro-silva-portfolio/static/css/main.af23644e.css",
-    "main.js": "/leandro-silva-portfolio/static/js/main.56667196.js",
+    "main.css": "/leandro-silva-portfolio/static/css/main.0bcb45be.css",
+    "main.js": "/leandro-silva-portfolio/static/js/main.bc31acf9.js",
     "static/js/453.d5ea6530.chunk.js": "/leandro-silva-portfolio/static/js/453.d5ea6530.chunk.js",
     "static/media/arenacross-web.png": "/leandro-silva-portfolio/static/media/arenacross-web.6dff8f9f41579fd4af8c.png",
     "static/media/luppi-web.png": "/leandro-silva-portfolio/static/media/luppi-web.67598cac4a59b70c5731.png",
@@ -19,12 +19,12 @@
     "static/media/firebase-icon.png": "/leandro-silva-portfolio/static/media/firebase-icon.65c4fe9f7eb228db7a4c.png",
     "static/media/nextjs-logo.webp": "/leandro-silva-portfolio/static/media/nextjs-logo.d57764092be401fee7cf.webp",
     "index.html": "/leandro-silva-portfolio/index.html",
-    "main.af23644e.css.map": "/leandro-silva-portfolio/static/css/main.af23644e.css.map",
-    "main.56667196.js.map": "/leandro-silva-portfolio/static/js/main.56667196.js.map",
+    "main.0bcb45be.css.map": "/leandro-silva-portfolio/static/css/main.0bcb45be.css.map",
+    "main.bc31acf9.js.map": "/leandro-silva-portfolio/static/js/main.bc31acf9.js.map",
     "453.d5ea6530.chunk.js.map": "/leandro-silva-portfolio/static/js/453.d5ea6530.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af23644e.css",
-    "static/js/main.56667196.js"
+    "static/css/main.0bcb45be.css",
+    "static/js/main.bc31acf9.js"
   ]
 }
