@@ -2,7 +2,7 @@ export default function Banner(){
     return(
         <div id="banner" className="flex">
             <div className="h-screen flex flex-col text-white items-center justify-center">
-                <h1 className="mt-24 mx-4 text-3xl text-center md:text-4xl uppercase font-bold"> Olá, eu sou 
+                <h1 className="mt-24 mx-6 text-3xl text-center md:text-4xl uppercase font-bold"> Olá, eu sou 
                     <span className="text-primary"> Leandro Silva </span>
                 </h1>
                 <p className="text-lg text-center mt-8 w-10/12 md:w-7/12 text-gray">

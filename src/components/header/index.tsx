@@ -23,7 +23,7 @@ export default function Header(){
     const classLI = "duration-200 border-primary hover:border-b-2 ";
 
     return(
-        <header id="header" className={`fixed h-24 w-full flex items-center justify-around text-white duration-700 ${
+        <header id="header" className={`fixed h-24 w-full flex items-center justify-between ${!active && 'px-9 md:px-0'} md:justify-around text-white duration-700 ${
             scrolled ? 'bg-black' : ''
           }`}>
             <h1 className="font-semibold text-lg">Leandro Silva</h1>
