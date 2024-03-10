@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leandro-silva-portfolio/static/css/main.2cca070c.css",
-    "main.js": "/leandro-silva-portfolio/static/js/main.473cbd91.js",
+    "main.js": "/leandro-silva-portfolio/static/js/main.3ccb598c.js",
     "static/js/453.d5ea6530.chunk.js": "/leandro-silva-portfolio/static/js/453.d5ea6530.chunk.js",
     "static/media/arenacross-web.png": "/leandro-silva-portfolio/static/media/arenacross-web.6dff8f9f41579fd4af8c.png",
     "static/media/luppi-web.png": "/leandro-silva-portfolio/static/media/luppi-web.67598cac4a59b70c5731.png",
@@ -20,11 +20,11 @@
     "static/media/nextjs-logo.webp": "/leandro-silva-portfolio/static/media/nextjs-logo.d57764092be401fee7cf.webp",
     "index.html": "/leandro-silva-portfolio/index.html",
     "main.2cca070c.css.map": "/leandro-silva-portfolio/static/css/main.2cca070c.css.map",
-    "main.473cbd91.js.map": "/leandro-silva-portfolio/static/js/main.473cbd91.js.map",
+    "main.3ccb598c.js.map": "/leandro-silva-portfolio/static/js/main.3ccb598c.js.map",
     "453.d5ea6530.chunk.js.map": "/leandro-silva-portfolio/static/js/453.d5ea6530.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cca070c.css",
-    "static/js/main.473cbd91.js"
+    "static/js/main.3ccb598c.js"
   ]
 }
