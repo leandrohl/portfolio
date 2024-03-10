@@ -35,7 +35,7 @@ export default function Experiences() {
                             return (
                                 <button 
                                     onClick={() => setSelected(index)} 
-                                    className={`py-4 px-8 ${selected === index ? "text-primary border-l-4 border-primary": "text-white"}`}
+                                    className={`py-4 px-8 text-sm md:text-base ${selected === index ? "text-primary border-l-4 border-primary": "text-white"}`}
                                 >
                                     {company}
                                 </button>
@@ -45,11 +45,11 @@ export default function Experiences() {
                 </div>
                 <div className="w-4/6">
                     <div className="flex flex-col md:flex-row md:justify-between md:items-center">
-                        <h2 className="text-white text-2xl" > {data[selected].title} </h2>
-                        <span className="text-gray text-lg	">{data[selected].period}</span>
+                        <h2 className="text-white text-xl md:text-2xl" > {data[selected].title} </h2>
+                        <span className="text-gray text-base md:text-lg	">{data[selected].period}</span>
                     </div>
-                    <h2 className="text-primary mt-4 text-xl"> {data[selected].company} </h2>
-                    <p className="text-gray mt-2">{data[selected].description}</p>
+                    <h2 className="text-primary mt-4 text-base md:text-xl"> {data[selected].company} </h2>
+                    <p className="text-gray text-sm	md:text-base mt-2">{data[selected].description}</p>
                 </div>
              </div>
         </section>
