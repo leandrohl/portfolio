@@ -12,7 +12,7 @@ export default function Banner(){
                     constantemente maneiras de tornar a experiência do usuário mais incrível.
                 </p>
                 <a href="#about-me" className="mt-20 bg-primary py-4 px-20 rounded-md font-semibold ">
-                    Quem sou
+                    Saiba mais
                 </a>
             </div>
         </div>

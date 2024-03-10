@@ -37,6 +37,7 @@ export default function Header(){
                     <li className={classLI}><a href="#experiences">Experiências</a></li>
                     <li className={classLI}><a href="#projects">Projetos</a></li>
                     <li className={classLI}><a href="#skills">Skills</a></li>
+                    <li className={classLI}><a href="#footer">Contato</a></li>
                 </ul>
             </nav>
             <button className="md:hidden" onClick={() => setActive(true)}>
