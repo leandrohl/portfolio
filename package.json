@@ -1,8 +1,8 @@
 {
-  "name": "leandro-sival-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leandrohl.github.io/leandro-silva-portfolio/",
+  "homepage": "https://leandrohl.github.io/portfolio/",
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
