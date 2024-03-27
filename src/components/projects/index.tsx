@@ -17,13 +17,13 @@ export default function Projects(){
                 title="Arena Cross"
                 description="Projeto de um site de uma academia de Crossfit chamada Arena Cross. "
                 image={ArenaCrossImage}
-                redirect=""
+                redirect="https://arenacross.vercel.app/"
             />
             <Card 
                 title="Ecoleta"
                 description="Projeto de um marketplace de coleta de resíduos (Mobile e Web)."
                 image={EcoletaImage}
-                redirect=""
+                redirect="https://github.com/leandrohl/ecoleta"
             />
         </section>
     )
