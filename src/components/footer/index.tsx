@@ -16,9 +16,9 @@ export default function Footer(){
                 <div className='mt-8 md:mt-0'>
                     <h2 className="text-white font-semibold mb-6 md:mb-8">Entre em contato</h2>
                     <div className="flex items-center gap-4">
-                        <a href='https://www.linkedin.com/in/leandro-silva-frontend/' target='blank'><img className='w-8 h-8' src={LinkedinIcon} alt="linkedin link"/></a>
+                        <a href='https://www.linkedin.com/in/leandro-silva1/' target='blank'><img className='w-8 h-8' src={LinkedinIcon} alt="linkedin link"/></a>
                         <a href='https://github.com/leandrohl' target='blank'><img className='w-8 h-8' src={GithubIcon} alt="github link"/></a>
-                        <a href='mailto:leandrohenrique.lima55@gmail.com' target='blank'><Email /></a>
+                        <a href='mailto:leandroesilva14@gmail.com' target='blank'><Email /></a>
 
                     </div>
                 </div>

@@ -2,18 +2,18 @@ import { useState } from "react";
 
 export default function Experiences() {
     const [selected, setSelected] = useState(0);
-    const companies = ['MB Labs', 'Marttech', 'Fapesp'];
+    const companies = ['MB Labs', 'ZAZ Vendas', 'Fapesp'];
 
     const data = [
         {
-            title: 'Desenvolvedor Frontend',
+            title: 'Frontend Developer',
             company: 'MB Labs',
             period: 'Nov 2022 - Presente',
             description: 'Como parte da equipe de desenvolvimento do aplicativo de conta digital da VR Benefícios, utilizando React Native, desempenhei um papel essencial na criação das funcionalidades bancárias cruciais, abrangendo pagamentos de boletos, transferências via Pix, gerenciamento de limites, cadastro de chaves pix e outras funcionalidades. Consegui uma notável cobertura de 80% nos testes unitários utilizando Jest e Testing Library, abrangendo detalhadamente todos os aspectos dos módulos, incluindo Statements, Branches, Functions e Lines. Participei também da equipe do MB Sustain, focando na correção de bugs e implementação de novas funcionalidades nos projetos Luteranos, Kronos, OverA e Luppi. Participei em conjunto com a equipe para garantir a qualidade e a estabilidade dos projetos. Neles tive uma colaboração eficaz na resolução de problemas e no aprimoramento das funcionalidades desses sistemas.'
         },
         {
-            title: 'Desenvolvedor Frontend',
-            company: 'Marttech - Desenvolvimento de Software',
+            title: 'Frontend Developer',
+            company: 'ZAZ Vendas',
             description: '-Desenvolvimento de aplicações para a ZAZ Vendas, aplicando meus conhecimentos em React.js para criar interfaces interativas e responsivas. \n -Utilização de tecnologias complementares, como Typescript, Styled Components, Context API, Material-UI e Yup, para garantir a escalabilidade, reusabilidade e uma experiência visual agradável aos usuários. \n -Manipulação da API do Google Maps para implementar recursos avançados, como visualização de mapas, roteirização e geolocalização, proporcionando uma experiência personalizada aos usuários. \n -Integração de relatórios com o Microstrategy Embedding SDK, permitindo a incorporação de análises de dados avançadas nos sistemas da ZAZ Vendas. \n -Utilização de ferramentas como Jira Software e Azure DevOps para o controle de tempo e atividades, garantindo uma gestão eficiente do fluxo de trabalho e a colaboração com a equipe.',
             period: 'Jun 2021 - Nov 2022 (1 ano e 6 meses)',
         },

@@ -9,7 +9,7 @@ export default function AboutMe(){
                 <div className='md:ml-8 md:w-2/4'>
                     <h2 className='text-primary font-semibold text-lg md:mt-12 '> Quem sou </h2>
                     <h1 className='text-white font-semibold mt-4 text-2xl'> Leandro Silva </h1>
-                    <h2 className='text-white  mt-2 text-lg'> Desenvolvedor Frontend </h2>
+                    <h2 className='text-white  mt-2 text-lg'> Frontend Developer </h2>
                     <p className='mt-6 text-gray text-sm'>
                         Olá! Sou um apaixonado pelo mundo da tecnologia, especialmente quando se trata de desenvolvimento móvel e web. Com 3 anos de atuação na área, meu objetivo é buscar constantemente maneiras de tornar a experiência do usuário mais incrível.
                         <br /><br />
