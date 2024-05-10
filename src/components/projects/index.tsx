@@ -16,6 +16,7 @@ export default function Projects(){
                     description="O Luppi é um projeto inovador de venda de ingressos online, no qual ao adquirir um ingresso para um evento, você ganha acesso a uma área especial de relacionamento. "
                     image={LuppiImage}
                     redirect="https://www.luppi.app/organizadores"
+                    associate="MB Labs"
                 />
                 <Card 
                     title="Arena Cross"
@@ -28,6 +29,7 @@ export default function Projects(){
                     description="Integro a equipe de desenvolvimento da VR Soluções Financeiras, composta por miniapps de conta digital e crédito dentro do SuperApp VR. "
                     image={VR}
                     redirect="https://play.google.com/store/apps/details?id=ws.hanzo.Vrrh&hl=pt_BR&gl=US"
+                    associate="MB Labs"
                 />
                 <Card 
                     title="Ecoleta"
