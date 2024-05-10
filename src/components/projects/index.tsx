@@ -1,7 +1,6 @@
 import Card from "./card";
 import LuppiImage from "../../assets/images/luppi-web.png"
 import ArenaCrossImage from "../../assets/images/arenacross-web.png"
-import EcoletaImage from "../../assets/images/ecoleta.png"
 
 export default function Projects(){
     return(
@@ -18,12 +17,6 @@ export default function Projects(){
                 description="Projeto de um site de uma academia de Crossfit chamada Arena Cross. "
                 image={ArenaCrossImage}
                 redirect="https://arenacross.vercel.app/"
-            />
-            <Card 
-                title="Ecoleta"
-                description="Projeto de um marketplace de coleta de resíduos (Mobile e Web)."
-                image={EcoletaImage}
-                redirect="https://github.com/leandrohl/ecoleta"
             />
         </section>
     )

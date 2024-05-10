@@ -1,11 +1,11 @@
-import ImageProfile from '../../assets/images/image-profile.jpeg'
+import ImageProfile from '../../assets/images/image-profile.png'
 import pdf from '../../assets/docs/Curriculo-Leandro-Silva.pdf'
 
 export default function AboutMe(){
     return(
         <section id="about-me" className="flex w-full items-center justify-center">
             <div className="flex flex-col md:flex-row justify-center bg-[#151515] rounded-md px-4 m-8 sm:m-20 border-2 border-[#1f1f1f]">
-                <img className='md:h-[32rem] my-8 rounded-md' src={ImageProfile} alt='profile-leandro' />
+                <img className='  my-8 rounded-md' src={ImageProfile} alt='profile-leandro' />
                 <div className='md:ml-8 md:w-2/4'>
                     <h2 className='text-primary font-semibold text-lg md:mt-12 '> Quem sou </h2>
                     <h1 className='text-white font-semibold mt-4 text-2xl'> Leandro Silva </h1>
