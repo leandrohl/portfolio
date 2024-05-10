@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa2586fe.css",
-    "main.js": "/portfolio/static/js/main.f6f2761b.js",
+    "main.css": "/portfolio/static/css/main.7dce178b.css",
+    "main.js": "/portfolio/static/js/main.053efdf1.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/arenacross-web.png": "/portfolio/static/media/arenacross-web.6dff8f9f41579fd4af8c.png",
-    "static/media/luppi-web.png": "/portfolio/static/media/luppi-web.67598cac4a59b70c5731.png",
+    "static/media/arenacross.png": "/portfolio/static/media/arenacross.a1ca6e576643cd0eb401.png",
+    "static/media/Luppi.png": "/portfolio/static/media/Luppi.2c7273d916e0b43a8345.png",
+    "static/media/Ecoleta.png": "/portfolio/static/media/Ecoleta.2f4f815638d500eaf15b.png",
+    "static/media/Eventos.png": "/portfolio/static/media/Eventos.c46281f62639022f0894.png",
+    "static/media/VR.png": "/portfolio/static/media/VR.c67ac3a1f4cb13290168.png",
     "static/media/Archivo.ttf": "/portfolio/static/media/Archivo.dbeec6a40176c2ff824c.ttf",
     "static/media/image-profile.png": "/portfolio/static/media/image-profile.711653433d0517710542.png",
     "static/media/redux-icon.png": "/portfolio/static/media/redux-icon.1b4bb5fceb01b19da59d.png",
+    "static/media/moveit.png": "/portfolio/static/media/moveit.d581eda07b7ba347989f.png",
     "static/media/Curriculo-Leandro-Silva.pdf": "/portfolio/static/media/Curriculo-Leandro-Silva.37ef48e930d527258803.pdf",
     "static/media/react-icon.png": "/portfolio/static/media/react-icon.73dbb5bcec516da82694.png",
     "static/media/typescript-logo.png": "/portfolio/static/media/typescript-logo.659e4b9351cf1baa6930.png",
@@ -18,12 +22,12 @@
     "static/media/firebase-icon.png": "/portfolio/static/media/firebase-icon.65c4fe9f7eb228db7a4c.png",
     "static/media/nextjs-logo.webp": "/portfolio/static/media/nextjs-logo.d57764092be401fee7cf.webp",
     "index.html": "/portfolio/index.html",
-    "main.aa2586fe.css.map": "/portfolio/static/css/main.aa2586fe.css.map",
-    "main.f6f2761b.js.map": "/portfolio/static/js/main.f6f2761b.js.map",
+    "main.7dce178b.css.map": "/portfolio/static/css/main.7dce178b.css.map",
+    "main.053efdf1.js.map": "/portfolio/static/js/main.053efdf1.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa2586fe.css",
-    "static/js/main.f6f2761b.js"
+    "static/css/main.7dce178b.css",
+    "static/js/main.053efdf1.js"
   ]
 }
