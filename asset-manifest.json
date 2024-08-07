@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7dce178b.css",
-    "main.js": "/portfolio/static/js/main.5a850010.js",
+    "main.js": "/portfolio/static/js/main.8248d0be.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/arenacross.png": "/portfolio/static/media/arenacross.a1ca6e576643cd0eb401.png",
     "static/media/Luppi.png": "/portfolio/static/media/Luppi.2c7273d916e0b43a8345.png",
-    "static/media/Ecoleta.png": "/portfolio/static/media/Ecoleta.2f4f815638d500eaf15b.png",
+    "static/media/ecoleta.png": "/portfolio/static/media/ecoleta.2f4f815638d500eaf15b.png",
     "static/media/Eventos.png": "/portfolio/static/media/Eventos.c46281f62639022f0894.png",
     "static/media/VR.png": "/portfolio/static/media/VR.c67ac3a1f4cb13290168.png",
     "static/media/Archivo.ttf": "/portfolio/static/media/Archivo.dbeec6a40176c2ff824c.ttf",
     "static/media/image-profile.png": "/portfolio/static/media/image-profile.711653433d0517710542.png",
     "static/media/redux-icon.png": "/portfolio/static/media/redux-icon.1b4bb5fceb01b19da59d.png",
     "static/media/moveit.png": "/portfolio/static/media/moveit.d581eda07b7ba347989f.png",
-    "static/media/Curriculo-Leandro-Silva.pdf": "/portfolio/static/media/Curriculo-Leandro-Silva.37ef48e930d527258803.pdf",
+    "static/media/Curriculo-Leandro-Silva.pdf": "/portfolio/static/media/Curriculo-Leandro-Silva.692ab4e4e5cc388b371f.pdf",
     "static/media/react-icon.png": "/portfolio/static/media/react-icon.73dbb5bcec516da82694.png",
     "static/media/typescript-logo.png": "/portfolio/static/media/typescript-logo.659e4b9351cf1baa6930.png",
     "static/media/javascript-icon.png": "/portfolio/static/media/javascript-icon.bcc2c22a39cd931b0284.png",
@@ -23,11 +23,11 @@
     "static/media/nextjs-logo.webp": "/portfolio/static/media/nextjs-logo.d57764092be401fee7cf.webp",
     "index.html": "/portfolio/index.html",
     "main.7dce178b.css.map": "/portfolio/static/css/main.7dce178b.css.map",
-    "main.5a850010.js.map": "/portfolio/static/js/main.5a850010.js.map",
+    "main.8248d0be.js.map": "/portfolio/static/js/main.8248d0be.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dce178b.css",
-    "static/js/main.5a850010.js"
+    "static/js/main.8248d0be.js"
   ]
 }
