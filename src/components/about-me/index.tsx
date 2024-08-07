@@ -11,13 +11,19 @@ export default function AboutMe(){
                     <h1 className='text-white font-semibold mt-4 text-2xl'> Leandro Silva </h1>
                     <h2 className='text-white  mt-2 text-lg'> Frontend Developer </h2>
                     <p className='mt-6 text-gray text-sm'>
-                        Olá! Sou um apaixonado pelo mundo da tecnologia, especialmente quando se trata de desenvolvimento móvel e web. Com 3 anos de atuação na área, meu objetivo é buscar constantemente maneiras de tornar a experiência do usuário mais incrível.
+                        Olá! Sou um entusiasta do mundo da tecnologia, especialmente no desenvolvimento mobile e web. Com 4 anos de atuação na área, busco constantemente aprimorar minhas habilidades e conhecimentos para construir aplicações de alta qualidade.
                         <br /><br />
-                        Integro a equipe de desenvolvimento na MB Labs, contribuindo para o aplicativo de conta digital da VR Benefícios. Minha experiência abrange desde o desenvolvimento de funcionalidades bancárias cruciais em React Native até a garantia da qualidade através de testes unitários.
+                        Minha experiência técnica abrange uma variedade de habilidades:      
+                        <ul>
+                            <li>Tecnologias: React.js, React Native, Next.js e Node.js</li>
+                            <li>Linguagens: JavaScript e TypeScript</li>
+                            <li>Gerenciamento de estado: Zustand, Context API e Redux</li>
+                            <li>Estilização: Styled-Components, Tailwind CSS, Bootstrap, CSS, Sass, Less e Material UI</li>
+                            <li>Princípios: Clean Code, SOLID e Clean Architecture</li>
+                            <li>Outras ferramentas: React Hooks, Axios, Firebase, Google Analytics, Express.js, Swagger, Git.</li>
+                        </ul>
                         <br />
-                        Além disso estou cursando Análise e Desenvolvimento de Sistemas na Unoeste, participando ativamente nos eventos de tecnologia e aprimorando minhas habilidades técnicas.
-                        <br /><br />
-                        O que me destaca é o meu fascínio constante por aprender e evoluir. Estou sempre em busca de oportunidades para aprimorar minhas habilidades e adquirir novas experiências.
+                        Além de habilidades técnicas, também tenho habilidades interpessoais, como trabalho em equipe, gerenciamento de tempo, comunicação com clientes, tomada de decisões e inteligência emocional.
                     </p>
                     <div className='flex justify-center mb-8'>
                         <a 

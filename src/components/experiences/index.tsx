@@ -2,18 +2,24 @@ import { useState } from "react";
 
 export default function Experiences() {
     const [selected, setSelected] = useState(0);
-    const companies = ['MB Labs', 'ZAZ Vendas', 'Fapesp'];
+    const companies = ['The Brooklyn Brothers', 'MB Labs', 'Marttech', 'Fapesp'];
 
     const data = [
         {
-            title: 'Frontend Developer',
-            company: 'MB Labs',
-            period: 'Nov 2022 - Presente',
-            description: 'Atualmente, estou trabalhando no mini app crédito que oferece produtos financeiros essenciais. Desde Antecipação de FGTS até Crédito Consignado e Antecipação de Salário. Além disso, estou no projeto Portal Consignado, que utiliza tecnologia de Microfrontend com Module Federation. Essa experiência me permite explorar novas tecnologias que garantem escalabilidade e a eficiência do projeto. \n Fiz parte também da equipe de desenvolvimento do aplicativo de conta digital da VR Benefícios, utilizando React Native, desempenhei um papel essencial na criação das funcionalidades bancárias cruciais, abrangendo pagamentos de boletos, transferências via Pix, gerenciamento de limites, cadastro de chaves pix e outras funcionalidades. Nesses projetos citados, consegui uma notável cobertura de 80% nos testes unitários utilizando Jest e Testing Library, abrangendo detalhadamente todos os aspectos dos módulos, incluindo Statements, Branches, Functions e Lines.'
+            title: 'Desenvolvedor Pleno',
+            company: 'The Brooklyn Brothers',
+            period: 'Jun 2024 - Presente',
+            description: 'Faço parte do Squad de Inovação da Unilever, onde focamos em criar websites inovadores e altamente funcionais. Nesse squad, trabalho para criar um site para Tresemmé (UK), em que o foco principal é listar todos os produtos Tresemmé de forma abrangente, além de apresentar coleções, artigos úteis e outros conteúdos relevantes. Além de desenvolver novos componentes, também me envolvo em entender as necessidades das marcas internacionais da Unilever. Eu ofereço suporte durante todo o ciclo de desenvolvimento de software para garantir que nossas entregas sejam de alta qualidade e estejam alinhadas com as expectativas.'
         },
         {
-            title: 'Frontend Developer',
-            company: 'ZAZ Vendas',
+            title: 'Desenvolvedor Frontend',
+            company: 'MB Labs',
+            period: 'Nov 2022 - Jun 2024 (1 ano e 8 meses)',
+            description: 'Eu trabalhei no app crédito, que oferece produtos financeiros, como Antecipação de FGTS até Crédito Consignado e Antecipação de Salário. Além disso, estive envolvido no projeto Portal Consignado, que utiliza tecnologia de Microfrontend com Module Federation. Essa experiência me permitiu explorar novas tecnologias que garantem escalabilidade e a eficiência do projeto. \n Fiz parte também da equipe de desenvolvimento do aplicativo de conta digital da VR Benefícios, utilizando React Native, desempenhei um papel essencial na criação das funcionalidades bancárias cruciais, abrangendo pagamentos de boletos, transferências via Pix, gerenciamento de limites, cadastro de chaves pix e outras funcionalidades. Nesses projetos citados, consegui uma notável cobertura de 80% nos testes unitários utilizando Jest e Testing Library, abrangendo detalhadamente todos os aspectos dos módulos, incluindo Statements, Branches, Functions e Lines.'
+        },
+        {
+            title: 'Desenvolvedor Frontend',
+            company: 'Marttech',
             description: 'Como parte da equipe de desenvolvimento para ZAZ Vendas, tive a oportunidade de desenvolver aplicações utilizando React.js e React Native e uma variedade de tecnologias complementares, como Typescript, Styled Components, Context API, Material-UI e Yup. Essas ferramentas foram essenciais para garantir a escalabilidade, reusabilidade e proporcionar uma experiência visual agradável aos usuários finais. Um dos aspectos mais interessantes do meu trabalho foi a manipulação da API do Google Maps. Isso me permitiu implementar recursos avançados, como visualização de mapas, roteirização e geolocalização.  Outro desafio empolgante foi a integração de relatórios com o Microstrategy Embedding SDK. Essa integração permitiu que incorporássemos análises de dados avançadas diretamente nos sistemas da ZAZ Vendas, fornecendo insights valiosos para nossos clientes. Para garantir uma gestão eficiente do projeto, utilizamos ferramentas como Jira Software e Azure DevOps. Essas plataformas foram cruciais para o controle de tempo e atividades, facilitando a colaboração com a equipe e mantendo o fluxo de trabalho organizado e eficaz.',
             period: 'Jun 2021 - Nov 2022 (1 ano e 6 meses)',
         },

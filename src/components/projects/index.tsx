@@ -1,7 +1,7 @@
 import Card from "./card";
 import LuppiImage from "../../assets/images/Luppi.png"
 import ArenaCrossImage from "../../assets/images/arenacross.png"
-import Ecoleta from "../../assets/images/Ecoleta.png"
+import Ecoleta from "../../assets/images/ecoleta.png"
 import VR from "../../assets/images/VR.png"
 import MoveIt from "../../assets/images/moveit.png"
 import Eventia from "../../assets/images/Eventos.png"
@@ -26,7 +26,7 @@ export default function Projects(){
                 />
                 <Card 
                     title="VR"
-                    description="Integro a equipe de desenvolvimento da VR Soluções Financeiras, composta por miniapps de conta digital e crédito dentro do SuperApp VR. "
+                    description="Integrei a equipe de desenvolvimento da VR Soluções Financeiras, composta por miniapps de conta digital e crédito dentro do SuperApp VR. "
                     image={VR}
                     redirect="https://play.google.com/store/apps/details?id=ws.hanzo.Vrrh&hl=pt_BR&gl=US"
                     associate="MB Labs"
