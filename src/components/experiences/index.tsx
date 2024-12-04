@@ -42,6 +42,7 @@ export default function Experiences() {
                                 <button 
                                     onClick={() => setSelected(index)} 
                                     className={`py-4 px-8 text-sm md:text-base ${selected === index ? "text-primary border-l-4 border-primary": "text-white"}`}
+                                    key={index}
                                 >
                                     {company}
                                 </button>

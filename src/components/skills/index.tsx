@@ -8,7 +8,8 @@ export default function Skills() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
                 {skills.map(s => {
                     return (
-                        <CardSkill 
+                        <CardSkill
+                            id={s.id}
                             tecnology={s.tecnology}  
                             description={s.description}
                             image={s.image}

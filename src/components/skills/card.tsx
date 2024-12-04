@@ -1,4 +1,5 @@
 interface CardSkillProps {
+    id: number,
     tecnology: string,
     description: string,
     image: string,
@@ -6,6 +7,7 @@ interface CardSkillProps {
 
 
 export default function CardSkill({ 
+    id,
     tecnology, 
     description, 
     image, 

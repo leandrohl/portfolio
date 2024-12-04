@@ -10,7 +10,7 @@ export default function AboutMe(){
                     <h2 className='text-primary font-semibold text-lg md:mt-12 '> Quem sou </h2>
                     <h1 className='text-white font-semibold mt-4 text-2xl'> Leandro Silva </h1>
                     <h2 className='text-white  mt-2 text-lg'> Frontend Developer </h2>
-                    <p className='mt-6 text-gray text-sm'>
+                    <div className='mt-6 text-gray text-sm'>
                         Olá! Sou um entusiasta do mundo da tecnologia, especialmente no desenvolvimento mobile e web. Com 4 anos de atuação na área, busco constantemente aprimorar minhas habilidades e conhecimentos para construir aplicações de alta qualidade.
                         <br /><br />
                         Minha experiência técnica abrange uma variedade de habilidades:      
@@ -24,7 +24,7 @@ export default function AboutMe(){
                         </ul>
                         <br />
                         Além de habilidades técnicas, também tenho habilidades interpessoais, como trabalho em equipe, gerenciamento de tempo, comunicação com clientes, tomada de decisões e inteligência emocional.
-                    </p>
+                    </div>
                     <div className='flex justify-center mb-8'>
                         <a 
                             href={pdf} 
