@@ -7,13 +7,12 @@ export default function AboutMe(){
             <div className="flex flex-col md:flex-row justify-center bg-[#151515] rounded-md px-4 m-8 sm:m-20 border-2 border-[#1f1f1f]">
                 <img className='  my-8 rounded-md' src={ImageProfile} alt='profile-leandro' />
                 <div className='md:ml-8 md:w-2/4'>
-                    <h2 className='text-primary font-semibold text-lg md:mt-12 '> Quem sou </h2>
+                    <h2 className='text-primary font-semibold text-lg md:mt-8 '> Quem sou </h2>
                     <h1 className='text-white font-semibold mt-4 text-2xl'> Leandro Silva </h1>
-                    <h2 className='text-white  mt-2 text-lg'> Frontend Developer </h2>
+                    <h2 className='text-white  mt-2 text-lg'> Software Engineer </h2>
                     <div className='mt-6 text-gray text-sm'>
-                        Olá! Sou um entusiasta do mundo da tecnologia, especialmente no desenvolvimento mobile e web. Com 4 anos de atuação na área, busco constantemente aprimorar minhas habilidades e conhecimentos para construir aplicações de alta qualidade.
-                        <br /><br />
-                        Minha experiência técnica abrange uma variedade de habilidades:      
+                        Olá! Sou envolvido pelo mundo da tecnologia, especialmente no desenvolvimento mobile e web. Com 4 anos de atuação na área, tenho ampla experiências em tecnologias como React, React Native, Typescript e Javascript. Estou constantemente buscando aprimorar minhas habilidades e conhecimentos para construir aplicações de alta qualidade.                        <br /><br />
+                        Minha experiência técnica abrange uma variedade de habilidades:
                         <ul>
                             <li>Tecnologias: React.js, React Native, Next.js e Node.js</li>
                             <li>Linguagens: JavaScript e TypeScript</li>
@@ -26,10 +25,10 @@ export default function AboutMe(){
                         Além de habilidades técnicas, também tenho habilidades interpessoais, como trabalho em equipe, gerenciamento de tempo, comunicação com clientes, tomada de decisões e inteligência emocional.
                     </div>
                     <div className='flex justify-center mb-8'>
-                        <a 
-                            href={pdf} 
-                            download="Curriculo-Leandro-Silva.pdf" 
-                            className="mt-12 border-2  border-primary py-4 px-4 md:px-20 rounded-md font-semibold text-primary"
+                        <a
+                            href={pdf}
+                            download="Curriculo-Leandro-Silva.pdf"
+                            className="mt-12 border-2 border-primary bg-primary py-4 px-20 rounded-md font-semibold text-black hover:bg-transparent hover:text-primary duration-700"
                         >
                             Baixar Curriculo
                         </a>

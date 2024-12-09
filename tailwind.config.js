@@ -11,7 +11,8 @@ module.exports = {
       primary: '#986dff',
       white: '#fff',
       gray: '#9ca3af',
-      black: '#000'
+      black: '#000',
+      transparent: "transparent"
     },
     fontFamily: {
       'sans': ['Archivo', ...defaultTheme.fontFamily.sans],

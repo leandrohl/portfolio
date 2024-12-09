@@ -26,13 +26,13 @@ export default function Header(){
         <header id="header" className={`fixed z-50 h-24 w-full flex items-center justify-between ${!active && 'px-9 md:px-0'} md:justify-around text-white duration-700 ${
             scrolled ? 'bg-black' : ''
           }`}>
-            <h1 className="font-semibold text-lg">Leandro Silva</h1>
+            <h1 className="font-semibold text-lg hover:text-primary duration-700">Leandro Silva</h1>
             <nav className={`${active ? 'h-screen w-full z-50 fixed top-0 flex items-center text-center justify-center bg-black' : 'hidden md:block'}`}>
                 <ul
-                  onClick={() => setActive(false)} 
+                  onClick={() => setActive(false)}
                   className={`flex flex-col md:flex-row gap-6 text-gray ${active && 'font-semibold text-xl gap-8'} `}
                 >
-                    <li className={classLI}><a href="#banner">Home</a></li>
+                    <li className={classLI}><a href="#banner">Início</a></li>
                     <li className={classLI}><a href="#about-me">Quem sou</a></li>
                     <li className={classLI}><a href="#experiences">Experiências</a></li>
                     <li className={classLI}><a href="#projects">Projetos</a></li>
