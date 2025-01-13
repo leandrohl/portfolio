@@ -10,7 +10,7 @@ export default function Footer(){
                 <div className="md:w-1/4">
                     <h2 className="text-white font-bold mb-4 text-xl">Leandro Silva</h2>
                     <p className="text-gray">
-                        Sou um apaixonado pelo mundo da tecnologia,
+                        Sou  envolvido pelo mundo da tecnologia,
                         especialmente quando se trata de desenvolvimento móvel e web.
                     </p>
                 </div>

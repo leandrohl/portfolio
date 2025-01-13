@@ -6,6 +6,9 @@ import NodeIcon from '../../assets/images/nodejs-logo.png'
 import ReduxIcon from '../../assets/images/redux-icon.png'
 import FirebaseIcon from '../../assets/images/firebase-icon.png'
 import StoryBook from '../../assets/images/storybook-icon.png'
+import NestIcon from '../../assets/images/nestjs.png'
+import SaasIcon from '../../assets/images/saas.png'
+import TailwindCss from '../../assets/images/tailwind-css.png'
 
 export const skills = [
     {
@@ -61,5 +64,23 @@ export const skills = [
         tecnology: 'Storybook',
         description: 'Storybook é um workshop de front-end para a construção de componentes e páginas de UI isoladamente. ',
         image: StoryBook
+    },
+    {
+      id: 10,
+      tecnology: 'Sass',
+      description: 'Sass é um pré-processador CSS que estende as funcionalidades do CSS tradicional, permitindo o uso de variáveis, aninhamento, mixins e mais.',
+      image: SaasIcon
+    },
+    {
+      id: 11,
+      tecnology: 'NestJS',
+      description: 'NestJS é um framework de back-end para a construção de aplicações Node.js escaláveis e eficientes. ',
+      image: NestIcon
+    },
+    {
+      id: 12,
+      tecnology: 'TailwindCss',
+      description: 'TailwindCSS é um framework de utilitários para estilização rápida e consistente de interfaces.',
+      image: TailwindCss
     },
 ]
