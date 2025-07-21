@@ -13,33 +13,33 @@ import TailwindCss from '../../assets/images/tailwind-css.png'
 export const skills = [
     {
         id: 1,
-        tecnology: 'React.js',
-        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
-        image: ReactIcon
-    },
-    {
-        id: 2,
         tecnology: 'React Native',
         description: 'React Native é usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa',
         image: ReactIcon
     },
     {
-        id: 3,
-        tecnology: 'Next.js',
-        description: 'Next.js permite criar aplicativos web de alta qualidade com o poder dos componentes React.',
-        image: NextIcon
+        id: 2,
+        tecnology: 'React.js',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        image: ReactIcon
     },
     {
-        id: 4,
+        id: 3,
         tecnology: 'Typescript',
         description: 'Typescript é uma linguagem de programação que é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.',
         image: TypescriptIcon
     },
     {
-        id: 5,
+        id: 4,
         tecnology: 'Javascript',
         description: 'É uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.',
         image: JavaScriptIcon
+    },
+    {
+        id: 5,
+        tecnology: 'Next.js',
+        description: 'Next.js permite criar aplicativos web de alta qualidade com o poder dos componentes React.',
+        image: NextIcon
     },
     {
         id: 6,

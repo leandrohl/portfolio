@@ -8,7 +8,7 @@ export default function Banner(){
                 <p className="text-lg text-center mt-8 w-10/12 md:w-7/12 text-gray">
                     Sou envolvido pelo mundo da tecnologia,
                     especialmente quando se trata de desenvolvimento móvel e web.
-                    Com 4 anos de atuação na área, meu objetivo é buscar
+                    Com 5 anos de atuação na área, meu objetivo é buscar
                     constantemente aprimorar minhas habilidades e conhecimentos para construir aplicações de alta qualidade.
                 </p>
                 <a href="#about-me" className="mt-20 border-2 border-primary text-white bg-primary py-4 px-20 rounded-md font-semibold hover:bg-transparent hover:text-primary duration-700">

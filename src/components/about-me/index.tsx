@@ -1,5 +1,5 @@
-import ImageProfile from '../../assets/images/image-profile2.jpeg'
-import pdf from '../../assets/docs/Curriculo-Leandro-Silva.pdf'
+import ImageProfile from '../../assets/images/image.png'
+import pdf from '../../assets/docs/Currículo-Leandro-Silva.pdf'
 
 export default function AboutMe(){
     return(
@@ -11,7 +11,7 @@ export default function AboutMe(){
                     <h1 className='text-white font-semibold mt-4 text-2xl'> Leandro Silva </h1>
                     <h2 className='text-white  mt-2 text-lg'> Software Engineer </h2>
                     <div className='mt-6 text-gray text-sm'>
-                        Olá! Sou envolvido pelo mundo da tecnologia, especialmente no desenvolvimento mobile e web. Com 4 anos de atuação na área, tenho ampla experiências em tecnologias como React, React Native, Typescript e Javascript. Estou constantemente buscando aprimorar minhas habilidades e conhecimentos para construir aplicações de alta qualidade.                        <br /><br />
+                        Olá! Sou um engenheiro de software com 5 anos de atuação na área, especializado em tecnologias como React Native, React.js, Next.js, TypeScript e JavaScript. Estou constantemente buscando aprimorar minhas habilidades e conhecimentos, priorizando boas práticas de código, performance e usabilidade.<br /><br />
                         Minha experiência técnica abrange uma variedade de habilidades:
                         <ul>
                             <li>Tecnologias: React.js, React Native, Next.js e Node.js</li>

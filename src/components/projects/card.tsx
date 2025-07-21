@@ -6,12 +6,10 @@ interface CardPropos {
     description: string;
     image: string;
     redirect?: string;
-    associate?: string;
 }
 
-export default function Card({ title, description, image, redirect, associate }: CardPropos){
+export default function Card({ title, description, image, redirect }: CardPropos){
     const [open, setOpen] = useState(false);
-
 
     return(
         <div
@@ -24,7 +22,6 @@ export default function Card({ title, description, image, redirect, associate }:
                 <div className="absolute top-0 bottom-0 w-full flex flex-col justify-center items-center mt-4">
                     <h2 className="text-2xl text-white font-bold ">{title}</h2>
                     <p className="text-gray w-3/4 mt-2 text-center">{description}</p>
-                    {associate && <p className="text-gray w-3/4 mt-2 text-center"> Associado com {associate}</p>}
                     {redirect && (
                       <div className="flex  justify-center ">
                         <a href={redirect} target="blank" className="mt-4 bg-primary p-4 rounded-full font-semibold text-white ">
