@@ -4,7 +4,7 @@ import Tresseme from "../../assets/images/tresseme.png"
 import VR from "../../assets/images/VR.png"
 import CEA from "../../assets/images/C&A.png"
 import Degree from "../../assets/images/degree-us.png"
-import Eventia from "../../assets/images/Eventos.png"
+import IECLB from "../../assets/images/IECLB.png"
 
 export default function Projects(){
     return(
@@ -30,22 +30,22 @@ export default function Projects(){
                     redirect="https://www.tresemme.com/uk/home.html"
                 />
                 <Card
-                    title="Degree Deodorant"
-                    description="Site oficial da Degree US, uma plataforma moderna e funcional para apresentar seus desodorantes ou antitranspirantes."
+                    title="Rexona"
+                    description="Site oficial da Rexona nos Estados Unidos, onde a marca é conhecida como Degree. Uma plataforma moderna e funcional, ideal para apresentar sua linha de desodorantes e antitranspirantes."
                     image={Degree}
                     redirect="https://www.degreedeodorant.com/us/en/home.html"
+                />
+                <Card
+                    title="IECLB"
+                    description="Aplicativo da Igreja Evangélica de Confissão Luterana no Brasil (IECLB) que tem como objetivo de divulgar a palavra de Deus, trazer informações sobre a igreja e aproximar pessoas."
+                    image={IECLB}
+                    redirect="https://apps.apple.com/br/app/ieclb/id1565273790"
                 />
                 <Card
                     title="Luppi"
                     description="O Luppi é um projeto inovador de venda de ingressos online, no qual ao adquirir um ingresso para um evento, você ganha acesso a uma área especial de relacionamento. "
                     image={LuppiImage}
                     redirect="https://www.luppi.app/organizadores"
-                />
-                <Card
-                    title="Eventia"
-                    description="Aplicativo de gestão de eventos com integração com Firebase"
-                    image={Eventia}
-                    redirect="https://github.com/leandrohl/event-management-app"
                 />
             </div>
         </section>
