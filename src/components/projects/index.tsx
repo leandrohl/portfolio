@@ -4,6 +4,7 @@ import Tresseme from "../../assets/images/tresseme.png"
 import VR from "../../assets/images/VR.png"
 import CEA from "../../assets/images/C&A.png"
 import Degree from "../../assets/images/degree-us.png"
+import Eventia from "../../assets/images/Eventos.png"
 
 export default function Projects(){
     return(
@@ -24,7 +25,7 @@ export default function Projects(){
                 />
                 <Card
                     title="TRESemmé"
-                    description="Site oficial da TRESemmé US, uma plataforma moderna e funcional para apresentar seus produtos de cuidados capilares."
+                    description="Site oficial da TRESemmé UK, uma plataforma moderna e funcional para apresentar seus produtos de cuidados capilares."
                     image={Tresseme}
                     redirect="https://www.tresemme.com/uk/home.html"
                 />
@@ -39,6 +40,12 @@ export default function Projects(){
                     description="O Luppi é um projeto inovador de venda de ingressos online, no qual ao adquirir um ingresso para um evento, você ganha acesso a uma área especial de relacionamento. "
                     image={LuppiImage}
                     redirect="https://www.luppi.app/organizadores"
+                />
+                <Card
+                    title="Eventia"
+                    description="Aplicativo de gestão de eventos com integração com Firebase"
+                    image={Eventia}
+                    redirect="https://github.com/leandrohl/event-management-app"
                 />
             </div>
         </section>
