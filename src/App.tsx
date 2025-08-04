@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles/global.css'
 import Header from './components/header';
 import Banner from './components/banner';

@@ -11,7 +11,7 @@ export default function Projects(){
         <section id="projects" className="flex flex-col justify-center items-center w-full px-4 md:px-20 py-20">
             <h2 className="text-white text-center text-3xl mb-4 font-semibold">Projetos</h2>
             <div className="grid xl:grid-cols-2 lg:grid-cols-2 gap-4 w-full">
-              <Card
+                <Card
                     title="C&A"
                     description="Aplicativo da C&A, uma loja de roupas online! O app oferece uma vasta seleção de moda feminina, masculina, infantil, moda praia, moda esportiva e moda plus size, garantindo que milhões de clientes tenham acesso fácil e rápido às novidades e ofertas da C&A na palma da mão."
                     image={CEA}

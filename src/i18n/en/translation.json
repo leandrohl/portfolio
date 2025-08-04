@@ -1,0 +1,21 @@
+{
+  "banner": {
+    "title": "Hi, I'm",
+    "name": "Leandro Silva",
+    "description": "I am immersed in the world of technology, especially when it comes to mobile and web development. With 5 years of experience in the field, my goal is to continuously improve my skills and knowledge to build high-quality applications.",
+    "learn_more": "Learn more"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a front-end developer experienced in React, TypeScript and more."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}

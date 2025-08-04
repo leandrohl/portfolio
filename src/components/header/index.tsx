@@ -25,7 +25,8 @@ export default function Header(){
     return(
         <header id="header" className={`fixed z-50 h-24 w-full flex items-center justify-between ${!active && 'px-9 md:px-0'} md:justify-around text-white duration-700 ${
             scrolled ? 'bg-black' : ''
-          }`}>
+          }`}
+        >
             <h1 className="font-semibold text-lg hover:text-primary duration-700">Leandro Silva</h1>
             <nav className={`${active ? 'h-screen w-full z-50 fixed top-0 flex items-center text-center justify-center bg-black' : 'hidden md:block'}`}>
                 <ul
