@@ -1,4 +1,15 @@
 {
+  "header": {
+      "home": "Início",
+      "name": "Leandro Silva",
+      "about": "Quem sou",
+      "experiences": "Experiências",
+      "projects": "Projetos",
+      "skills": "Skills",
+      "contact": "Contato",
+      "lang_en": "EUA",
+      "lang_pt": "BR"
+  },
   "banner": {
     "title": "Olá, eu sou",
     "name": "Leandro Silva",
@@ -6,16 +17,57 @@
     "learn_more": "Saiba mais"
   },
   "about": {
-    "title": "Sobre mim",
-    "description": "Sou desenvolvedor front-end com experiência em React, TypeScript e muito mais."
+    "who_am_i": "Quem sou",
+    "name": "Leandro Silva",
+    "profission": "Software Engineer",
+    "resume": "Olá! Sou um engenheiro de software com 5 anos de atuação na área, especializado em tecnologias como React Native, React.js, Next.js, TypeScript e JavaScript. Estou constantemente buscando aprimorar minhas habilidades e conhecimentos, priorizando boas práticas de código, performance e usabilidade. Minha experiência técnica abrange uma variedade de habilidades:",
+    "technology": "Tecnologias: React.js, React Native, Next.js e Node.js",
+    "languages": "Linguagens: JavaScript e TypeScript",
+    "state_management": "Gerenciamento de estado: Zustand, Context API e Redux",
+    "styling": "Estilização: Styled-Components, Tailwind CSS, Bootstrap, CSS, Sass, Less e Material UI",
+    "principles": "Princípios: Clean Code, SOLID e Clean Architecture",
+    "other_tools": "Outras ferramentas: React Hooks, Axios, Firebase, Google Analytics, Express.js, Swagger, Git.",
+    "soft_skills": "Além de habilidades técnicas, também tenho habilidades interpessoais, como trabalho em equipe, gerenciamento de tempo, comunicação com clientes, tomada de decisões e inteligência emocional.",
+    "download_resume": "Baixar Curriculo"
+  },
+  "experiences": {
+    "experiences": "Experiências"
+  },
+  "projects": {
+    "title": "Projetos",
+    "cea": {
+      "title": "C&A",
+      "description": "Aplicativo da C&A, uma loja de roupas online! O app oferece uma vasta seleção de moda feminina, masculina, infantil, moda praia, moda esportiva e moda plus size, garantindo que milhões de clientes tenham acesso fácil e rápido às novidades e ofertas da C&A na palma da mão."
+    },
+    "vr": {
+      "title": "VR",
+      "description": "Aplicativo da VR Soluções Financeiras, composta por miniapps de conta digital e crédito dentro do SuperApp VR."
+    },
+    "tresemme": {
+      "title": "TRESemmé",
+      "description": "Site oficial da TRESemmé UK, uma plataforma moderna e funcional para apresentar seus produtos de cuidados capilares."
+    },
+    "degree": {
+      "title": "Rexona",
+      "description": "Site oficial da Rexona nos Estados Unidos, onde a marca é conhecida como Degree. Uma plataforma moderna e funcional, ideal para apresentar sua linha de desodorantes e antitranspirantes."
+    },
+    "ieclb": {
+      "title": "IECLB",
+      "description": "Aplicativo da Igreja Evangélica de Confissão Luterana no Brasil (IECLB) que tem como objetivo de divulgar a palavra de Deus, trazer informações sobre a igreja e aproximar pessoas."
+    },
+    "luppi": {
+      "title": "Luppi",
+      "description": "O Luppi é um projeto inovador de venda de ingressos online, no qual ao adquirir um ingresso para um evento, você ganha acesso a uma área especial de relacionamento."
+    }
   },
   "skills": {
     "title": "Habilidades"
   },
-  "projects": {
-    "title": "Projetos"
-  },
   "contact": {
-    "title": "Contato"
+    "title": "Contato",
+    "name": "Leandro Silva",
+    "description": "Sou envolvido pelo mundo da tecnologia, especialmente quando se trata de desenvolvimento móvel e web.",
+    "reach_me": "Entre em contato:",
+    "copyright": "© Copyright 2024. Feito por Leandro Silva"
   }
 }

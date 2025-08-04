@@ -5,15 +5,14 @@ interface CardSkillProps {
     image: string,
 }
 
-
-export default function CardSkill({ 
+export default function CardSkill({
     id,
-    tecnology, 
-    description, 
-    image, 
+    tecnology,
+    description,
+    image,
 }: CardSkillProps) {
     return (
-        <button 
+        <button
             className={`text-left duration-700 bg-black p-8 border-primary hover:border-b-8 hover:border-primary'}`}
         >
             <img src={image} alt="tecnology-imagem" className="h-12"/>

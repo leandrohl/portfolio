@@ -11,76 +11,148 @@ import SaasIcon from '../../assets/images/saas.png'
 import TailwindCss from '../../assets/images/tailwind-css.png'
 
 export const skills = [
-    {
-        id: 1,
-        tecnology: 'React Native',
-        description: 'React Native é usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa',
-        image: ReactIcon
+  {
+    id: 1,
+    tecnology: {
+      pt: 'React Native',
+      en: 'React Native'
     },
-    {
-        id: 2,
-        tecnology: 'React.js',
-        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
-        image: ReactIcon
+    description: {
+      pt: 'React Native é usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa',
+      en: 'React Native is used to build native applications for Android and iOS systems.'
     },
-    {
-        id: 3,
-        tecnology: 'Typescript',
-        description: 'Typescript é uma linguagem de programação que é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.',
-        image: TypescriptIcon
+    image: ReactIcon
+  },
+  {
+    id: 2,
+    tecnology: {
+      pt: 'React.js',
+      en: 'React.js'
     },
-    {
-        id: 4,
-        tecnology: 'Javascript',
-        description: 'É uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.',
-        image: JavaScriptIcon
+    description: {
+      pt: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+      en: 'React is an open-source JavaScript front-end library focused on building user interfaces for web pages.'
     },
-    {
-        id: 5,
-        tecnology: 'Next.js',
-        description: 'Next.js permite criar aplicativos web de alta qualidade com o poder dos componentes React.',
-        image: NextIcon
+    image: ReactIcon
+  },
+  {
+    id: 3,
+    tecnology: {
+      pt: 'Typescript',
+      en: 'Typescript'
     },
-    {
-        id: 6,
-        tecnology: 'Node.js',
-        description: 'Node.js é um software de código aberto, multiplataforma, que permite a execução de códigos JavaScript fora de um navegador web.',
-        image: NodeIcon
+    description: {
+      pt: 'Typescript é uma linguagem de programação que é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.',
+      en: 'TypeScript is a programming language that is a strict syntactical superset of JavaScript and adds optional static typing to the language.'
     },
-    {
-        id: 7,
-        tecnology: 'Redux.js',
-        description: 'Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo. ',
-        image: ReduxIcon
+    image: TypescriptIcon
+  },
+  {
+    id: 4,
+    tecnology: {
+      pt: 'Javascript',
+      en: 'Javascript'
     },
-    {
-        id: 8,
-        tecnology: 'Firebase',
-        description: 'É um conjunto de serviços de computação em nuvem de back-end e plataformas de desenvolvimento de aplicativos fornecidos pelo Google.',
-        image: FirebaseIcon
+    description: {
+      pt: 'É uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.',
+      en: 'JavaScript is a high-level, interpreted scripting language with weak dynamic typing and multi-paradigm support.'
     },
-    {
-        id: 9,
-        tecnology: 'Storybook',
-        description: 'Storybook é um workshop de front-end para a construção de componentes e páginas de UI isoladamente. ',
-        image: StoryBook
+    image: JavaScriptIcon
+  },
+  {
+    id: 5,
+    tecnology: {
+      pt: 'Next.js',
+      en: 'Next.js'
     },
-    {
-      id: 10,
-      tecnology: 'Sass',
-      description: 'Sass é um pré-processador CSS que estende as funcionalidades do CSS tradicional, permitindo o uso de variáveis, aninhamento, mixins e mais.',
-      image: SaasIcon
+    description: {
+      pt: 'Next.js permite criar aplicativos web de alta qualidade com o poder dos componentes React.',
+      en: 'Next.js enables the creation of high-quality web applications using the power of React components.'
     },
-    {
-      id: 11,
-      tecnology: 'NestJS',
-      description: 'NestJS é um framework de back-end para a construção de aplicações Node.js escaláveis e eficientes. ',
-      image: NestIcon
+    image: NextIcon
+  },
+  {
+    id: 6,
+    tecnology: {
+      pt: 'Node.js',
+      en: 'Node.js'
     },
-    {
-      id: 12,
-      tecnology: 'TailwindCss',
-      description: 'TailwindCSS é um framework de utilitários para estilização rápida e consistente de interfaces.',
-      image: TailwindCss
+    description: {
+      pt: 'Node.js é um software de código aberto, multiplataforma, que permite a execução de códigos JavaScript fora de um navegador web.',
+      en: 'Node.js is an open-source, cross-platform runtime that allows JavaScript code to run outside a web browser.'
     },
-]
+    image: NodeIcon
+  },
+  {
+    id: 7,
+    tecnology: {
+      pt: 'Redux.js',
+      en: 'Redux.js'
+    },
+    description: {
+      pt: 'Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.',
+      en: 'Redux is an open-source JavaScript library for managing application state.'
+    },
+    image: ReduxIcon
+  },
+  {
+    id: 8,
+    tecnology: {
+      pt: 'Firebase',
+      en: 'Firebase'
+    },
+    description: {
+      pt: 'É um conjunto de serviços de computação em nuvem de back-end e plataformas de desenvolvimento de aplicativos fornecidos pelo Google.',
+      en: 'Firebase is a set of cloud computing services and application development platforms provided by Google.'
+    },
+    image: FirebaseIcon
+  },
+  {
+    id: 9,
+    tecnology: {
+      pt: 'Storybook',
+      en: 'Storybook'
+    },
+    description: {
+      pt: 'Storybook é um workshop de front-end para a construção de componentes e páginas de UI isoladamente.',
+      en: 'Storybook is a front-end workshop for building UI components and pages in isolation.'
+    },
+    image: StoryBook
+  },
+  {
+    id: 10,
+    tecnology: {
+      pt: 'Sass',
+      en: 'Sass'
+    },
+    description: {
+      pt: 'Sass é um pré-processador CSS que estende as funcionalidades do CSS tradicional, permitindo o uso de variáveis, aninhamento, mixins e mais.',
+      en: 'Sass is a CSS preprocessor that extends traditional CSS with features like variables, nesting, mixins, and more.'
+    },
+    image: SaasIcon
+  },
+  {
+    id: 11,
+    tecnology: {
+      pt: 'NestJS',
+      en: 'NestJS'
+    },
+    description: {
+      pt: 'NestJS é um framework de back-end para a construção de aplicações Node.js escaláveis e eficientes.',
+      en: 'NestJS is a back-end framework for building scalable and efficient Node.js applications.'
+    },
+    image: NestIcon
+  },
+  {
+    id: 12,
+    tecnology: {
+      pt: 'TailwindCss',
+      en: 'TailwindCss'
+    },
+    description: {
+      pt: 'TailwindCSS é um framework de utilitários para estilização rápida e consistente de interfaces.',
+      en: 'TailwindCSS is a utility-first framework for fast and consistent interface styling.'
+    },
+    image: TailwindCss
+  }
+];
