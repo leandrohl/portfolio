@@ -13,12 +13,12 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col justify-center items-center w-full px-4 md:px-20 py-20"
+      className="flex w-full flex-col items-center justify-center px-4 py-20 md:px-20"
     >
-      <h2 className="text-white text-center text-3xl mb-4 font-semibold">
+      <h2 className="mb-4 text-center text-3xl font-semibold text-white">
         {t("projects.title")}
       </h2>
-      <div className="grid xl:grid-cols-2 lg:grid-cols-2 gap-4 w-full">
+      <div className="grid w-full gap-4 lg:grid-cols-2 xl:grid-cols-2">
         <Card
           title={t("projects.cea.title")}
           description={t("projects.cea.description")}
