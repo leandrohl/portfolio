@@ -1,24 +1,8 @@
-import './styles/global.css'
-import Header from './components/header';
-import Banner from './components/banner';
-import AboutMe from './components/about-me';
-import Projects from './components/projects';
-import Experiences from './components/experiences';
-import Skills from './components/skills';
-import Footer from './components/footer';
+import './styles/global.css';
+import Portfolio from './components/portfolio/Portfolio';
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <Banner />
-      <AboutMe />
-      <Experiences />
-      <Projects />
-      <Skills />
-      <Footer />
-    </div>
-  );
+  return <Portfolio />;
 }
 
 export default App;
