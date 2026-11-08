@@ -2,8 +2,10 @@ import { useState } from "react";
 import CeaImage from "../../assets/images/C&A.png";
 import VrImage from "../../assets/images/VR.png";
 import DegreeImage from "../../assets/images/degree-us.png";
+import LuppiImage from "../../assets/images/Luppi.png";
+import TressemeImage from "../../assets/images/tresseme.png";
 import IeclbImage from "../../assets/images/IECLB.png";
-import EventsImage from "../../assets/images/Eventos.png";
+import CcDImage from "../../assets/images/ccd.png";
 import ProfileImage from "../../assets/images/image-profile.png";
 
 type Language = "pt" | "en";
@@ -92,30 +94,49 @@ const projects = [
     category: "Mobile / Retail",
     image: CeaImage,
     text: "Aplicativo de varejo em larga escala, com foco em jornadas mobile e pagamentos.",
+    link: "https://apps.apple.com/br/app/c-a-comprar-roupas/id1168148250",
   },
   {
     title: "VR",
     category: "Mobile / Fintech",
     image: VrImage,
     text: "Experiências de conta digital e crédito dentro de um SuperApp financeiro.",
+    link: "https://apps.apple.com/br/app/superapp-vr/id667577139",
   },
   {
-    title: "Degree",
-    category: "Web / Brand",
-    image: DegreeImage,
-    text: "Plataforma digital da marca Degree para o mercado norte-americano.",
+    title: "Daily CCD",
+    category: "Mobile / Community",
+    image: CcDImage,
+    text: "Aplicativo de cursos nas áreas de saúde, tais como terapia nutricional, distúrbios, intoxicações e muito mais.",
+    link: "https://apps.apple.com/br/app/daily-ccd/id1512207951",
   },
   {
     title: "IECLB",
     category: "Mobile / Community",
     image: IeclbImage,
     text: "Aplicativo para aproximar pessoas, conteúdo e informações da igreja.",
+    link: "https://apps.apple.com/br/app/ieclb/id1565273790",
   },
   {
-    title: "Eventos",
-    category: "Web / Platform",
-    image: EventsImage,
-    text: "Plataforma de venda de ingressos e relacionamento para eventos.",
+    title: "Degree",
+    category: "Web / Brand",
+    image: DegreeImage,
+    text: "Plataforma digital da marca Degree para o mercado norte-americano.",
+    link: "https://www.degreedeodorant.com/us/en/home.html",
+  },
+  {
+    title: "Tresseme",
+    category: "Web / Brand",
+    image: TressemeImage,
+    text: "Plataforma digital da marca Tresseme para o mercado do Reino Unido (UK).",
+    link: "https://www.tresemme.com/uk/home.html",
+  },
+  {
+    title: "Luppi",
+    category: "Mobile / Platform",
+    image: LuppiImage,
+    text: "Aplicativo para gestão de eventos e interação com a comunidade Luppi.",
+    link: "#",
   },
 ];
 
@@ -368,9 +389,11 @@ export default function Portfolio() {
           <div className="project-grid">
             {projects.map((project, index) => (
               <a
-                href="#contact"
+                href={project.link}
+                target="_blank"
                 className={`project-card ${index === 0 ? "featured" : ""}`}
                 key={project.title}
+                rel="noreferrer"
               >
                 <div className="project-image">
                   <img src={project.image} alt={`Projeto ${project.title}`} />
@@ -438,12 +461,17 @@ export default function Portfolio() {
             </p>
             <h2>{t.contactTitle}</h2>
             <p>{t.contactText}</p>
-            <a
-              className="contact-email"
-              href="mailto:leandroesilva14@gmail.com"
-            >
-              leandroesilva14@gmail.com <span>↗</span>
-            </a>
+            <div className="contact-methods">
+              <a
+                className="contact-email"
+                href="mailto:leandroesilva14@gmail.com"
+              >
+                leandroesilva14@gmail.com <span>↗</span>
+              </a>
+              <a className="contact-email" href="tel:+5518997649727">
+                +55 (18) 99764-9727 <span>↗</span>
+              </a>
+            </div>
             <div className="socials">
               <a
                 href="https://www.linkedin.com/in/leandro-silva1/"
