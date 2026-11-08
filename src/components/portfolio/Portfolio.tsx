@@ -143,12 +143,10 @@ const experiences = [
       {
         value: "+0,50",
         label: "p.p. de conversão no checkout",
-        note: "resultado de equipe em condições de teste",
       },
       {
         value: "+20%",
         label: "no ticket médio NuPay",
-        note: "de R$ 150 para R$ 180",
       },
     ],
     architecture: ["Native Applications", "React Native + TypeScript"],
@@ -391,7 +389,6 @@ export default function Portfolio() {
                           <div className="metric-card" key={metric.label}>
                             <strong>{metric.value}</strong>
                             <span>{metric.label}</span>
-                            <small>{metric.note}</small>
                           </div>
                         ))}
                       </div>
