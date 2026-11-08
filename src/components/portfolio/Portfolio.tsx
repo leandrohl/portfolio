@@ -47,7 +47,34 @@ const experiences = [
   { company: 'Marttech', role: 'Desenvolvedor Frontend', period: 'Jun 2021 — Nov 2022', text: 'Desenvolvimento de aplicações web e mobile para operações de vendas, com integrações de mapas, relatórios e APIs.', tags: ['React', 'React Native', 'APIs'], highlights: ['Aplicações para operações de vendas', 'Integrações com mapas e APIs', 'Relatórios para o negócio'] }
 ];
 
-const skills = ['React Native', 'TypeScript', 'React', 'Kotlin', 'Swift', 'iOS & Android', 'Next.js', 'Node.js', 'Clean Architecture', 'Testing', 'CI/CD', 'Code Review'];
+const expertise = {
+  pt: {
+    core: [
+      ['React Native', 'Desenvolvimento de aplicações mobile multiplataforma.'],
+      ['TypeScript', 'Código tipado, sustentável e escalável.'],
+      ['Mobile Architecture', 'Arquitetura de aplicações, modularidade e manutenção.'],
+      ['iOS & Android', 'Desenvolvimento e integração com plataformas nativas.']
+    ],
+    supporting: [
+      ['Frontend & Backend', ['React', 'Next.js', 'Node.js']],
+      ['Native Development', ['Kotlin', 'Swift']],
+      ['Engineering Practices', ['Clean Architecture', 'Testing', 'CI/CD', 'Code Review']]
+    ]
+  },
+  en: {
+    core: [
+      ['React Native', 'Cross-platform mobile application development.'],
+      ['TypeScript', 'Typed, sustainable, and scalable code.'],
+      ['Mobile Architecture', 'Application architecture, modularity, and maintenance.'],
+      ['iOS & Android', 'Native platform development and integration.']
+    ],
+    supporting: [
+      ['Frontend & Backend', ['React', 'Next.js', 'Node.js']],
+      ['Native Development', ['Kotlin', 'Swift']],
+      ['Engineering Practices', ['Clean Architecture', 'Testing', 'CI/CD', 'Code Review']]
+    ]
+  }
+} as const;
 
 export default function Portfolio() {
   const [lang, setLang] = useState<Language>('pt');
@@ -72,7 +99,7 @@ export default function Portfolio() {
       <section className="about section-wrap" id="about"><div className="section-label"><span>{t.aboutKicker}</span><div className="rule" /></div><div className="about-grid"><h2>{t.aboutTitle}</h2><div className="about-body"><p>{t.aboutText}</p><p>{t.aboutText2}</p><div className="about-facts"><span><strong>05</strong> anos de experiência</span><span><strong>02</strong> plataformas mobile</span></div></div><div className="portrait"><img src={ProfileImage} alt="Leandro Silva" /><span>mobile engineer<br />based in Brazil</span></div></div></section>
       <section className="experience section-wrap dark-section" id="experience"><div className="section-label"><span>{t.expKicker}</span><div className="rule" /></div><h2>{t.expTitle}</h2><div className="timeline">{experiences.map((item, index) => { const expanded = expandedExperience === index; const detailsId = `experience-details-${index}`; return <article className={`timeline-item ${index === 0 ? 'is-featured' : ''} ${expanded ? 'is-expanded' : ''}`} key={item.company}><div className="timeline-meta"><span className="timeline-index">0{index + 1}</span><span>{item.period}</span></div><div className="timeline-content"><div className="experience-heading"><div><h3>{item.company}</h3><p className="role">{item.role}</p></div><span className="experience-status">{index === 0 ? 'Em destaque' : 'Experiência'}</span></div><p className="experience-summary">{item.text}</p><div className="experience-highlights">{item.highlights.map((highlight, highlightIndex) => <div key={highlight}><span>0{highlightIndex + 1}</span><p>{highlight}</p></div>)}</div><div className="tags">{item.tags.map(tag => <span key={tag}>{tag}</span>)}</div><button className="experience-toggle" type="button" aria-expanded={expanded} aria-controls={detailsId} onClick={() => setExpandedExperience(expanded ? null : index)}>{expanded ? 'Recolher experiência' : 'Explorar experiência'} <span>{expanded ? '↑' : '↘'}</span></button><div className="experience-details" id={detailsId} hidden={!expanded}>{item.metrics && <div className="metrics-grid">{item.metrics.map(metric => <div className="metric-card" key={metric.label}><strong>{metric.value}</strong><span>{metric.label}</span><small>{metric.note}</small></div>)}</div>}{item.architecture && <div className="architecture"><span className="details-kicker">Architecture &amp; Engineering</span><div className="architecture-flow">{item.architecture.map((step, stepIndex) => <div key={step}><span>{step}</span>{stepIndex < item.architecture!.length - 1 && <b>→</b>}</div>)}</div></div>}{item.challenge && <div className="challenge-grid"><div><span className="details-kicker">Challenge</span><p>{item.challenge}</p></div><div><span className="details-kicker">Engineering Approach</span><p>{item.approach}</p></div></div>}<div className="technical-highlights"><span className="details-kicker">Technical Highlights</span><div>{item.highlights.map(highlight => <p key={highlight}>↗ {highlight}</p>)}</div></div></div></div></article>})}</div></section>
       <section className="projects section-wrap" id="projects"><div className="section-label"><span>{t.projectsKicker}</span><div className="rule" /></div><div className="section-heading"><h2>{t.projectsTitle}</h2><span>01 — 05</span></div><div className="project-grid">{projects.map((project, index) => <a href="#contact" className={`project-card ${index === 0 ? 'featured' : ''}`} key={project.title}><div className="project-image"><img src={project.image} alt={`Projeto ${project.title}`} /></div><div className="project-info"><div><span className="project-category">{project.category}</span><h3>{project.title}</h3><p>{project.text}</p></div><span className="project-arrow">↗</span></div></a>)}</div></section>
-      <section className="expertise section-wrap dark-section" id="expertise"><div className="section-label"><span>{t.expertiseKicker}</span><div className="rule" /></div><h2>{t.expertiseTitle}</h2><div className="skill-grid">{skills.map((skill, index) => <div className="skill-card" key={skill}><span>0{(index % 4) + 1}</span><strong>{skill}</strong><i>↗</i></div>)}</div></section>
+      <section className="expertise section-wrap dark-section" id="expertise"><div className="section-label"><span>{t.expertiseKicker}</span><div className="rule" /></div><div className="expertise-intro"><h2>{t.expertiseTitle}</h2><p>{lang === 'pt' ? 'Especialização em engenharia mobile, da arquitetura à entrega de produto.' : 'Specialized in mobile engineering, from architecture to product delivery.'}</p></div><div className="core-expertise"><div className="expertise-subheading"><span>01</span><h3>Core Expertise</h3></div><div className="core-grid">{expertise[lang].core.map(([title, description], index) => <article className="core-card" key={title}><div className="core-card-top"><span>0{index + 1}</span><i aria-hidden="true">↗</i></div><h4>{title}</h4><p>{description}</p></article>)}</div></div><div className="supporting-expertise"><div className="expertise-subheading"><span>02</span><h3>Supporting Expertise</h3></div><div className="supporting-grid">{expertise[lang].supporting.map(([category, tags]) => <div className="expertise-category" key={category}><h4>{category}</h4><div className="expertise-tags">{tags.map(tag => <span key={tag}>{tag}</span>)}</div></div>)}</div></div></section>
       <section className="writing section-wrap" id="writing"><div className="section-label"><span>{t.writingKicker}</span><div className="rule" /></div><div className="writing-card"><div><h2>{t.writingTitle}</h2><span className="article-number">01 / ARTICLE</span></div><div className="article-copy"><h3>{t.article}</h3><p>{t.articleText}</p><a className="text-link" href="https://leandro-silva.medium.com/princ%C3%ADpios-solid-no-frontend-20d78d129e8f" target="_blank" rel="noreferrer">{t.read} <span>↗</span></a></div></div></section>
       <section className="contact section-wrap" id="contact"><div className="contact-inner"><div className="section-label"><span>{t.contactKicker}</span><div className="rule" /></div><p className="available"><i /> {t.available}</p><h2>{t.contactTitle}</h2><p>{t.contactText}</p><a className="contact-email" href="mailto:leandroesilva14@gmail.com">leandroesilva14@gmail.com <span>↗</span></a><div className="socials"><a href="https://www.linkedin.com/in/leandro-silva1/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/leandrohl" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
     </main>
